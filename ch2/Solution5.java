@@ -11,8 +11,8 @@ public class Solution5
 {
 	public LinkedListNode sumLists(LinkedListNode listA, LinkedListNode listB, int carryOver)
 	{
-		/*
-		 * 
+		/* Follow Up: Part B is conceptually the same as Part A, but more complicated when it comes to implementation.
+		 * Since we will need to consider the creating wrapper class due to the change order of head and tail.
 		 */
 		
 		if (listA == null && listB == null && carryOver == 0)
