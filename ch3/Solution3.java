@@ -9,6 +9,8 @@ import java.util.*;
 
 public class Solution3 
 {
+	/* See ReadMe.rd for the Follow Up question
+	*/
 	public static class SetOfStacks
 	{
 		/* Assume stacks only takes integer inputs
