@@ -10,6 +10,9 @@ import java.util.Scanner;
 
 public class Solution7 
 {
+	/* See ReadMe.md for Follow Up question
+	*/
+	
 	// the total number of integers (4 billion integers input)
 	private long totalNumOfInts = ((long) Integer.MAX_VALUE) + 1; // 2^(31) distinct integers
 	private int[] bitfield = new int[(int) (totalNumOfInts/32)]; // 1 integer is 8x4=32 bits, in other words, 1 space of integer can be used to hold 32 bits
